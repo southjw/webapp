@@ -15,3 +15,8 @@ git reflog 查看每次命令
 
 git reset HEAD file 把暂存区的修改撤销掉
 git checkout -- readme.txt 撤销修改
+
+rm file 删除文件
+git rm file 删除版本中文件
+git checkout -- file 版本库里的文件替换工作区的文件
+
