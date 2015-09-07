@@ -1,6 +1,6 @@
 开始学习git:
 git init 创建git版本库
-git add file 提交前的操作
+git add file 提交到暂存区
 git commit -m"notes" 提交
 git status 查看状态
 git diff file 查看差异
@@ -13,3 +13,5 @@ git reset --hard id redo操作
 
 git reflog 查看每次命令
 
+git reset HEAD file 把暂存区的修改撤销掉
+git checkout -- readme.txt 撤销修改
